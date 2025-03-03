@@ -1,0 +1,66 @@
+[
+  {
+    "title": "Software Engineer",
+    "location": "New York, NY",
+    "description": "Develop and maintain software applications.",
+    "postedDate": "2025-03-01T10:00:00Z",
+    "company": "GOOGLE",
+    "jobUrl": "https://google.com/jobs/software-engineer"
+  },
+  {
+    "title": "Frontend Developer",
+    "location": "San Francisco, CA",
+    "description": "Build user-friendly web interfaces.",
+    "postedDate": "2025-03-01T11:00:00Z",
+    "company": "AMAZON",
+    "jobUrl": "https://amazon.com/jobs/frontend-developer"
+  },
+  {
+    "title": "Backend Developer",
+    "location": "Seattle, WA",
+    "description": "Work on server-side logic and APIs.",
+    "postedDate": "2025-02-28T09:00:00Z",
+    "company": "MICROSOFT",
+    "jobUrl": "https://microsoft.com/jobs/backend-developer"
+  },
+  {
+    "title": "Software Engineer",
+    "location": "New York, NY",
+    "description": "Develop and maintain software applications.",
+    "postedDate": "2025-03-01T10:00:00Z",
+    "company": "GOOGLE",
+    "jobUrl": "https://google.com/jobs/software-engineer"
+  },
+  {
+    "title": "Cloud Engineer",
+    "location": "Austin, TX",
+    "description": "Design and manage cloud infrastructure.",
+    "postedDate": "2025-02-27T08:30:00Z",
+    "company": "GOOGLE",
+    "jobUrl": "https://google.com/jobs/cloud-engineer"
+  },
+  {
+    "title": "Frontend Developer",
+    "location": "San Francisco, CA",
+    "description": "Build user-friendly web interfaces.",
+    "postedDate": "2025-03-01T11:00:00Z",
+    "company": "AMAZON",
+    "jobUrl": "https://amazon.com/jobs/frontend-developer"
+  },
+  {
+    "title": "Data Scientist",
+    "location": "Boston, MA",
+    "description": "Analyze data and build predictive models.",
+    "postedDate": "2025-03-02T14:00:00Z",
+    "company": "MICROSOFT",
+    "jobUrl": "https://microsoft.com/jobs/data-scientist"
+  },
+  {
+    "title": "Cloud Engineer",
+    "location": "Austin, TX",
+    "description": "Design and manage cloud infrastructure.",
+    "postedDate": "2025-02-27T08:30:00Z",
+    "company": "GOOGLE",
+    "jobUrl": "https://google.com/jobs/cloud-engineer"
+  }
+]

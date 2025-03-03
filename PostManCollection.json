@@ -1,0 +1,82 @@
+{
+	"info": {
+		"_postman_id": "f047d32d-256b-4097-acde-a5b8cca5fe4f",
+		"name": "JobScrapper-v1-Collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "28554952"
+	},
+	"item": [
+		{
+			"name": "Get the All Jobs",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/api/v1/job?page=1&limit=10&company=GOOGLE",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"v1",
+						"job"
+					],
+					"query": [
+						{
+							"key": "page",
+							"value": "1"
+						},
+						{
+							"key": "limit",
+							"value": "10"
+						},
+						{
+							"key": "search",
+							"value": "developer",
+							"disabled": true
+						},
+						{
+							"key": "location",
+							"value": "Seattle",
+							"disabled": true
+						},
+						{
+							"key": "company",
+							"value": "GOOGLE"
+						},
+						{
+							"key": "sortOrder",
+							"value": "asc",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Remove the Duplicate Jobs",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/api/v1/job/delete-duplicate",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"v1",
+						"job",
+						"delete-duplicate"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
