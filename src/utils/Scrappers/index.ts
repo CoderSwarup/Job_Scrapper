@@ -47,7 +47,11 @@ export function scheduleJobFetching(AllJobs: JobTypes[]) {
 
     // await insertOrUpdateJobsBulk(allJobs)
 
-    await publishJobChunks(config.QUEUE_NAME || 'JOB_QUEUE', allJobs, 50)
+    await publishJobChunks(
+      config.QUEUE_NAME || 'JOB_QUEUE',
+      allJobs,
+      config.JOB_CHUNK_SIZE || 50,
+    )
 
     AllJobs.push(...allJobs)
 
