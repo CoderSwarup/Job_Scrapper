@@ -20,6 +20,12 @@ A web scraper and API service to gather and serve job opportunities from the car
 
 ---
 
+## Video Sample
+
+https://github.com/user-attachments/assets/08f8c550-6319-49ed-99bc-c03dbd63f0bb
+
+
+
 ## Prerequisites
 
 1. **Node.js**: Install [Node.js](https://nodejs.org/).
